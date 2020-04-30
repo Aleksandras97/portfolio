@@ -2,35 +2,44 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #0f0400;
   background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+  background-attachment: fixed;
   padding-top: 2rem;
 }
 
-.border-gradient-nav {
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
-
-.border-gradient-purple {
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-}
-
-/* hr {
+hr {
   border-style: none;
   border-top-style: dotted;
   border-top-width: 7px;
   height: 2px;
   width: 7%;
   border-color: #ffe7d1;
-} */
-
-.card {
-  background-color: #f9f9f9;
-  /* opacity: 0.8; */
 }
 
 .Section {
-  padding: 5% 10%;
+  padding: 3% 10%;
+}
+
+.box {
+  background-color: #f9f9f9;
+}
+
+.bg-smooth {
+  background-color: #333;
+}
+
+.box hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-top-width: 7px;
+  height: 2px;
+  width: 2%;
+  border-color: black;
+}
+
+
+.project a {
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .image {
@@ -53,15 +62,11 @@ body{
   transform: rotateZ(5deg);
 }
 
-.myname{
+.myName{
   font-family: 'Sacramento', cursive;
   font-size: 4rem;
   font-weight: 700;
   line-height: 2;
-}
-
-.all-links{
-  padding:2%;
 }
 
 .links{
@@ -84,4 +89,8 @@ body{
 .code-text code{
   padding: 1%;
   border-radius: 8%;
+}
+
+.contact {
+  margin: 8% 5%
 }
